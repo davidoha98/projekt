@@ -1,0 +1,109 @@
+body {
+    width: 900px;
+    height: auto;
+    margin-left: 210px;
+    background: #e7eef1;
+}
+
+.threedee1, .threedee2 {
+    font-family: Arial;
+    text-transform: uppercase;
+    color: #f2395a;
+    transform: skew(-5deg,-5deg) rotate(5deg);
+    transform-origin: center center;
+    text-shadow: 1px 1px #d10e31,2px 2px #d10e31,3px 3px #d10e31,4px 4px 
+    #d10e31,5px 5px #d10e31,6px 6px #d10e31,7px 7px #d10e31,8px 8px 
+    #890920,9px 9px #890920,10px 10px #890920,11px 11px 15px rgba(0,0,0,0.5); 
+}
+.threedee1{
+    display: block;
+}
+.threedee2{
+    display: none;
+}
+
+.koteret{
+    background-color: rgb(245, 211, 198);
+    padding: 5px;
+    margin-top: 15px;
+    text-align: center;
+}
+.koteret span{
+    text-align: center;
+    font-size: 50px;
+}
+/* .eachCar{
+    text-align: right;
+    font-size: 15px;
+} */
+.yemin{
+    margin-top: 10px;
+    float: right;
+    text-align: right;
+    background-color: rgb(141, 245, 240);
+    padding: 10px;
+}
+.nekudot, .namberaluf, .rama, .fishulim, .timer, .alufim, .mains{
+    background-color: rgb(241, 241, 207);
+    margin-bottom: 8px;
+    padding: 2px;
+    width: 130px;
+
+}
+h4{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.smol{
+    margin-top: 10px;
+    background-color: black;
+    width: 730px;
+    height: 500px;
+}
+.mistovev{
+    background-color: rgb(22, 208, 214);
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    padding: 4px;
+    animation: none;
+    position: absolute;
+    margin-top: 93px;
+    margin-left: 210px;
+    top: 0px;
+    left: 0px;
+}
+
+@keyframes rotation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: none;
+}
+  
+.tooltip .tooltiptext {
+    display: none;
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+  
+.tooltip:hover .tooltiptext {
+    display: block;
+}

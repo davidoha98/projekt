@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contaner">
+        <div class="koteret">
+            <span onclick="start(), startTimer()" class="threedee1">התחל משחק</span>
+            <span onclick="stop()" class="threedee2">השהה משחק</span>
+        </div>
+
+        <div class="yemin">
+            <div class="nekudot">
+                <h4>:נקודות</h4>
+                <span id="nekudot">0</span>
+            </div>
+            <div class="namberaluf">
+                <h4>:נקודות לרמה הבאה</h4>
+                <span id="namberaluf">10</span>
+            </div>
+            <div class="rama">
+                <h4>:רמת קושי</h4>
+                <span id="rama">1</span>
+            </div>
+            <div class="fishulim">
+                <h4>:נקודות החמצה</h4>
+                <span id="fishulim">0</span>
+            </div>
+            <div class="timer">
+                <h4>:טיימר</h4>
+                <span id="timer">60</span>
+            </div>
+                 <div id="mains" class="mains">
+                    <h4>:רשימת האלופים</h4>
+                    <div id="main" class="main"></div>
+                </div>
+            </div>
+        </div>
+        <div onclick="smol()" class="smol">
+        </div>
+        <div onclick="lehitzot(),miyad()" onmousemove="leahar()" id="mistovev" class="mistovev">לחץ עלי</div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
